@@ -9,4 +9,5 @@ jobs:
     - name: Run Django unit tests
       run:
         pip3 install --user django
+        source .venv/bin/activate
         python3 manage.py test
